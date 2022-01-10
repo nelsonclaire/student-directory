@@ -6,5 +6,5 @@ enrolled at Villians Academy
 ## How to use
 
 ```shell
-ruby dirctory.rb
+ruby directory.rb
 ```
