@@ -13,7 +13,7 @@ def input_students()
     cohort = 'default' if cohort.empty?
      # Check for typos, does the user need to make amendments
      puts "Name: #{name}, Cohort: #{cohort}"
-     puts "Are these details correct? if so type 'Y' otherwise type 'N' and re-enter details"
+     puts "Are these details correct? If so type 'Y' otherwise type 'N' and re-enter details"
      response = gets.chomp
      if response.upcase == 'Y'
        # add the student hash to the array
